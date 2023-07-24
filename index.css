@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;/*border box se border create hoga jitna humra given size hoga given element ka ism border extra space ni lega*/
+}
+.navbar{
+    height: 5.25rem;
+   
+}
+.logo{
+    height: 3.125rem;
+    width: 7.5rem;
+    background-image: url(Linkedin_img.png);
+    background-size: cover;
+    margin-left: 1.25rem;
+}
+.signBox{
+    height: 30.25rem;
+    width: 20.625rem;
+    border:2px solid black;
+    border-radius: 2%;
+    position: relative;
+    left: 34.375rem;
+    background-position: center;
+    padding: 1.25rem;
+}
+.box p{
+padding: 0px 0px 4px;
+font-size:1rem;
+margin-bottom: 10px;
+}
+.box{
+    font-size: 1.3rem;
+}
+.box1{
+    width: 21.875rem;
+    padding-top: 12px;
+    padding-bottom: 6px;
+    
+}
+.email{
+    border: .5px solid black;
+    border-radius: 5px;
+    height:2.8rem;
+    width: 20.313rem;
+    font-size: 1.2rem;
+}
+.email:hover{
+    font-size: .7rem;
+    display: flex ;
+}
+.pass{
+    border: .5px solid black;
+    border-radius: 5px;
+    height: 2.8rem;;
+    width: 20.313rem;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.box1 a{
+   color: #0a66c2;
+   font-weight: 10;
+}
+.box2 p{
+    width: 20.313rem;
+    height: 3.125rem;
+    border-radius: 25px;
+    background-color: #0a66c2;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.box2{
+    text-align: center;
+}
+.box3{
+    margin-top: 15px;
+    width: 20.313rem;
+    height: 2.5rem;
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    border: .5px solid black;
+}
+.apple{
+       display: flex;
+       font-size: 1.2rem;
+}
+.box3 i{
+    margin-right: 9px;
+}
+.last{
+    margin-top: 15px;;
+    /* position: relative;
+    left: 39.688rem; */
+    text-align: center;
+    margin-bottom: 15px;
+}
+.last a{
+    color: #0a66c2;
+}
+.footer{
+    height: 4.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 19px 70px;
+    color: gray; 
+    font-size: .85rem;
+    text-align: center;
+}
+.foot a{
+    margin-left: 15px;
+}
+.option{
+    height: 1.5rem;
+    color: gray;
+    margin-left: 14px;
+    border: none;
+    height: 20px;
+    margin-left: 0;
+}
